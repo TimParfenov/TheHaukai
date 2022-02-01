@@ -43,25 +43,6 @@ body {
     border-color: white;
 }
 
-@media (max-width: 990px){
-
-    #h5 {
-        visibility: hidden;
-    }
-    #h3 {
-        line-height: 0.5rem;
-    }
-    .nav-bar-submenu {
-        position: absolute;
-        right:1rem ;
-    }
-    .navbar-menu {
-        position: absolute;
-        right:1rem ;
-        top: 5rem;
-    }
-}
-
 #h5 {
     color: white;
     min-width: 200px;
@@ -81,7 +62,38 @@ body {
     color: orange;
     text-shadow: 1rem 1.5rem 1.5rem;
 }
+.center {
+    display: none;
+}
+@media (max-width: 990px){
 
+    #h5 {
+        display: none;
+    }
+    #h3 {
+        line-height: 0.5rem;
+        margin-top: 2rem;
+    }
+    .nav-bar-submenu {
+        position: absolute;
+        right:1rem ;
+    }
+    .navbar-menu {
+        position: absolute;
+        right:1rem ;
+        top: 5rem;
+    }
+    .top-left {
+         display: none;
+    }
+    .center {
+        display: initial;
+    }
+
+    .logo {
+        width: 100%;
+    }
+}
 /* ++++++++++++++NABVBAR+++++++++++  */
 
 /* ++++++++++++++MENU PAGE+++++++++++  */
@@ -257,3 +269,36 @@ body {
 /* ++++++++++++++RESERVATION PAGE+++++++++++  */
 
 
+
+/* ++++++++++++++ROSTER +++++++++++  */
+.roster {
+    width: 100%;
+    background-image: linear-gradient(rgba(228, 221, 221, 0.9),rgba(228, 221, 221, 0.9)),
+    url(https://images.unsplash.com/photo-1421789497144-f50500b5fcf0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1771&q=80);
+    background-size:cover;
+    text-align: center; 
+    background-position: center;
+}
+#nav_roster {
+    font-family: 'Fuzzy Bubbles', cursive;
+    color: rgb(0, 0, 0);
+}
+#nav_roster:hover {
+        color: orange;
+        text-shadow: 1rem 1.5rem 1.5rem;
+}
+
+@media (max-width: 990px){
+    .table p {
+        font-size: 0.8rem;
+    }
+    .navbar-menu-roster h3 {
+        margin-top: 2rem;
+    }
+}
+.table-bordered {
+    border: black;
+}
+
+
+/* ++++++++++++++ROSTER +++++++++++  */
