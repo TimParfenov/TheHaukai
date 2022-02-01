@@ -13,10 +13,8 @@ body {
 .home {
     height: 100vh;
     width: 100%;
-    /* background-image: linear-gradient(rgba(34, 33, 33, 0.6),rgba(34, 33, 33, 0.6)),
-    url(https://images.unsplash.com/photo-1566897819059-db42e135fa69?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2938&q=80); */
     background-image: linear-gradient(rgba(34, 33, 33, 0.6),rgba(34, 33, 33, 0.6)),
-    url('home_page.jpeg');
+    url(https://images.unsplash.com/photo-1566897819059-db42e135fa69?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2938&q=80);
     background-size: cover;
     text-align: center; 
     background-position: center;
